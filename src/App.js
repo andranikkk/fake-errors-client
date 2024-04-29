@@ -18,7 +18,7 @@ function App() {
 
   const fetchUserData = () => {
     fetch(
-      `http://localhost:5000/api/users?page=${page}&region=${region}&errors=${errors}`
+      `https://fake-errors.onrender.com/api/users?page=${page}&region=${region}&errors=${errors}`
     )
       .then((response) => response.json())
       .then((data) => {
