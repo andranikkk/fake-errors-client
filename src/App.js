@@ -33,7 +33,7 @@ function App() {
 
   const fetchMoreUserData = () => {
     fetch(
-      `http://localhost:5000/api/users?page=${
+      `https://fake-errors.onrender.com/api/users?page=${
         page + 1
       }&region=${region}&errors=${errors}`
     )
